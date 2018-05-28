@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="qui_def_status_bar_height">25dip</dimen>
+    <dimen name="qw_context_menu_item_height">56dp</dimen>
+    <dimen name="qw_context_menu_item_left_padding">20dp</dimen>
+    <dimen name="qw_title_bar_height">44dp</dimen>
+
+    <dimen name="setting_item_title_text_size">12sp</dimen>
+    <dimen name="setting_item_icon_text_size">18dp</dimen>
+    <dimen name="setting_item_text_size">16sp</dimen>
+    <dimen name="setting_item_sub_text_size">14sp</dimen>
+    <dimen name="setting_item_right_text_size">16sp</dimen>
+
+    <dimen name="setting_item_height">52dp</dimen>
+    <dimen name="setting_item_two_line_height">68dp</dimen>
+    <dimen name="setting_item_padding">16dp</dimen>
+    <dimen name="setting_item_left_padding">16dp</dimen>
+    <dimen name="setting_item_right_padding">16dp</dimen>
+    <dimen name="setting_item_top_padding">13dp</dimen>
+    <dimen name="setting_item_bottom_padding">13dp</dimen>
+    <dimen name="setting_item_title_text_top_margin">6dp</dimen>
+    <dimen name="setting_item_title_text_bottom_margin">8dp</dimen>
+    <dimen name="setting_item_title_text_left_margin">16dp</dimen>
+    <dimen name="setting_item_title_text_right_margin">16dp</dimen>
+    <dimen name="setting_item_sub_text_top_margin">4dp</dimen>
+    <dimen name="setting_item_right_view_margin">14dp</dimen>
+    <dimen name="setting_item_text_right_margin">24dp</dimen>
+    <dimen name="setting_item_divider_height">12dp</dimen>
+    <dimen name="setting_item_top_line_left_margin">16dp</dimen>
+    <dimen name="setting_item_top_line_right_margin">16dp</dimen>
+    <dimen name="setting_item_bottom_line_left_margin">16dp</dimen>
+    <dimen name="setting_item_bottom_line_right_margin">16dp</dimen>
+    <dimen name="setting_item_icon_size">20dp</dimen>
+    <dimen name="setting_item_right_image_min_size">16dp</dimen>
+    <dimen name="setting_item_right_image_max_size">36dp</dimen>
+
+    <dimen name="qui_single_line_item_icon_size">24dp</dimen>
+    <dimen name="qui_title_text_size">18dp</dimen>
+    <dimen name="qui_single_line_item_height">52dp</dimen>
+    <dimen name="qui_image_text_margin">8dp</dimen>
+    <dimen name="qui_image_text_big_margin">16dp</dimen>
+    <dimen name="qui_head_size_1">44dp</dimen>
+    <dimen name="qui_divider_line_height">1px</dimen>
+
+    <dimen name="qui_content_text_size">14dp</dimen>
+    <dimen name="qui_text_margin">4dp</dimen>
+    <dimen name="qui_little_icon_size">16dp</dimen>
+    <dimen name="qui_double_line_item_height">72dp</dimen>
+    <dimen name="setting_item_annotation_text_top_margin">12dp</dimen>
+    <dimen name="setting_item_annotation_text_bottom_margin">24dp</dimen>
+    <dimen name="setting_item_annotation_text_left_margin">16dp</dimen>
+    <dimen name="setting_item_annotation_text_right_margin">16dp</dimen>
+    <dimen name="setting_item_icon_right_margin">12dp</dimen>
+
+    <dimen name="setting_sub_item_left_padding">36dp</dimen>
+
+    <dimen name="setting_radio_group_top_line_left_margin">0dp</dimen>
+    <dimen name="setting_radio_group_top_line_right_margin">0dp</dimen>
+    <dimen name="setting_radio_group_bottom_line_left_margin">0dp</dimen>
+    <dimen name="setting_radio_group_bottom_line_right_margin">0dp</dimen>
+    <dimen name="setting_radio_group_inner_line_left_margin">16dp</dimen>
+    <dimen name="setting_radio_group_inner_line_right_margin">0dp</dimen>
+
+    <dimen name="setting_sub_radio_group_top_line_left_margin">16dp</dimen>
+    <dimen name="setting_sub_radio_group_top_line_right_margin">0dp</dimen>
+    <dimen name="setting_sub_radio_group_bottom_line_left_margin">0dp</dimen>
+    <dimen name="setting_sub_radio_group_bottom_line_right_margin">0dp</dimen>
+    <dimen name="setting_sub_radio_group_inner_line_left_margin">36dp</dimen>
+    <dimen name="setting_sub_radio_group_inner_line_right_margin">0dp</dimen>
+
+    <dimen name="qui_tab_height_small">36dp</dimen>
+    <dimen name="qui_tab_height_normal">50dp</dimen>
+    <dimen name="qui_tab_underline_width">40dp</dimen>
+
+    <dimen name="qui_unread_icon_top_margin">8dp</dimen>
+    <dimen name="qui_unread_icon_left_margin">50dp</dimen>
+    <dimen name="qui_not_remind_icon_top_margin">11dp</dimen>
+    <dimen name="qui_not_remind_icon_left_margin">54dp</dimen>
+    <dimen name="qui_tab_name_left_margin">18dp</dimen>
+    <dimen name="qui_iconfont_size">14sp</dimen>
+</resources>

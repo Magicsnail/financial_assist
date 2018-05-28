@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_project_item"
+    android:paddingTop="15dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/qui_title_text_size"
+        android:textColor="@color/qui_text_dark"
+        android:text="项目：装修" />
+
+    <TextView
+        android:id="@+id/budgetTextView"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/qui_text_light"
+        android:textSize="@dimen/qui_content_text_size"
+        android:text="总预算:100"
+        app:layout_constraintTop_toBottomOf="@id/titleTextView"
+        />
+</android.support.constraint.ConstraintLayout>

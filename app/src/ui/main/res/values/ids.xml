@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="setting_item_text" type="id"/>
+    <item name="setting_item_icon" type="id"/>
+    <item name="setting_item_text_layout" type="id"/>
+    <item name="setting_item_right_text" type="id"/>
+    <item name="setting_item_right_image" type="id"/>
+    <item name="setting_item_right_text_left_icon_font_view" type="id"/>
+    <item name="setting_item_nav" type="id"/>
+    <item name="setting_item_switch" type="id"/>
+
+    <item name="titlebar_back" type="id"/>
+    <item name="titlebar_close" type="id"/>
+    <item name="titlebar_plugin_custom" type="id"/>
+    <item name="titlebar_plugin_more" type="id"/>
+    <item name="titlebar_plugin_refresh" type="id"/>
+    <item name="titlebar_plugin_feedback" type="id"/>
+    <item name="titlebar_unknow" type="id"/>
+    <item name="titlebar_popwin_item" type="id"/>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/title_bar" />
+
+    <TextView
+        android:id="@+id/briefInfoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleBar"
+        android:textColor="@color/qui_text_light"
+        android:textSize="12sp"
+        android:text="总预算[200000]，已花费 15000元"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:dividerHeight="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:divider="@color/transparent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_pannel"
+        app:layout_constraintTop_toBottomOf="@+id/briefInfoTextView"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/bottom_pannel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/qui_background_normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TextView
+            android:id="@+id/filterBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="@dimen/qui_content_text_size"
+            android:textColor="@color/qui_text_dark"
+            android:text="筛选"/>
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_width="1px"
+            android:layout_height="40dp"
+            android:background="@color/qui_line_dark"/>
+
+        <TextView
+            android:id="@+id/addThingBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="@dimen/qui_content_text_size"
+            android:textColor="@color/qui_text_dark"
+            android:text="记一笔"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/qui_line_dark"
+        app:layout_constraintBottom_toTopOf="@id/bottom_pannel"
+
+        />
+
+</android.support.constraint.ConstraintLayout>

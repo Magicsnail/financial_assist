@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="30dp">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="8dp"
+        android:paddingTop="15dp"
+        android:textSize="@dimen/qui_content_text_size"
+        android:textColor="@color/qui_text_normal"
+        android:text="名称:"/>
+
+    <EditText
+        android:id="@+id/titleEditView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/qui_content_text_size"
+        android:textColor="@color/qui_text_normal"
+        app:layout_constraintLeft_toRightOf="@id/titleTextView"
+        />
+
+    <TextView
+        android:id="@+id/budgetTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingRight="8dp"
+        android:textSize="@dimen/qui_content_text_size"
+        android:textColor="@color/qui_text_normal"
+        android:text="预算:"
+        app:layout_constraintTop_toBottomOf="@id/titleTextView"/>
+
+    <EditText
+        android:id="@+id/budgetEditView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="@dimen/qui_content_text_size"
+        android:textColor="@color/qui_text_normal"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toBottomOf="@id/titleTextView"
+        app:layout_constraintLeft_toRightOf="@id/budgetTextView"
+        />
+
+    <TextView
+        android:id="@+id/costTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingRight="8dp"
+        android:textSize="@dimen/qui_content_text_size"
+        android:textColor="@color/qui_text_normal"
+        android:text="支出:"
+        app:layout_constraintTop_toBottomOf="@id/budgetTextView"/>
+
+    <EditText
+        android:id="@+id/costEditView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="@dimen/qui_content_text_size"
+        android:textColor="@color/qui_text_normal"
+        android:inputType="numberDecimal"
+        app:layout_constraintTop_toBottomOf="@id/budgetEditView"
+        app:layout_constraintLeft_toRightOf="@id/costTextView"
+        />
+
+    <TextView
+        android:id="@+id/remarkTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingRight="8dp"
+        android:textSize="@dimen/qui_content_text_size"
+        android:textColor="@color/qui_text_normal"
+        android:text="备注:"
+        app:layout_constraintTop_toBottomOf="@id/costTextView"/>
+
+    <EditText
+        android:id="@+id/remarkEditView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="@dimen/qui_content_text_size"
+        android:textColor="@color/qui_text_normal"
+        app:layout_constraintTop_toBottomOf="@id/costEditView"
+        app:layout_constraintLeft_toRightOf="@id/remarkTextView"
+        />
+</android.support.constraint.ConstraintLayout>

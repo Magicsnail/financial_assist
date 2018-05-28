@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--品牌颜色-->
+    <color name="titlebar_background">#515151</color>
+    <color name="qui_brand_blue">#3089dc</color>
+    <color name="qui_brand_blue_press">#1170bc</color>
+
+    <!--背景色-->
+    <color name="qui_background_white">#fff</color>
+    <color name="qui_background_light">#f7f8fa</color>
+    <color name="qui_background_normal">#eff0f4</color>
+    <color name="qui_background_dark">#ebecf0</color>
+
+    <!--线条颜色-->
+    <color name="qui_line_light">#e6e7eb</color>
+    <color name="qui_line_normal">#dcdee3</color>
+    <color name="qui_line_dark">#c4c6cf</color>
+
+    <!--文本颜色-->
+    <color name="qui_text_white">#fff</color>
+    <color name="qui_text_lighter">#c4c6cf</color>
+    <color name="qui_text_light">#999999</color>
+    <color name="qui_text_normal">#5f646e</color>
+    <color name="qui_text_dark">#3d4145</color>
+
+    <!--功能色-->
+    <color name="qui_functional_error_normal">#f23c3c</color>
+    <color name="qui_functional_error_light">#fae7e7</color>
+    <color name="qui_functional_error_dark">#e41010</color>
+    <color name="qui_functional_warning_normal">#ffa033</color>
+    <color name="qui_functional_warning_light">#ffe2d0</color>
+    <color name="qui_functional_warning_dark">#f48608</color>
+    <color name="qui_functional_success_normal">#1dc11d</color>
+    <color name="qui_functional_success_light">#e8f9e8</color>
+    <color name="qui_functional_success_dark">#1bb11b</color>
+
+    <!--link颜色-->
+    <color name="qui_link_normal">#3089dc</color>
+    <color name="qui_link_press">#1170bc</color>
+    <color name="qui_link_click">#9a65a6</color>
+
+    <!--图标色-->
+    <color name="qui_icon_blue">#4da6f0</color>
+    <color name="qui_icon_yellow">#ffc636</color>
+    <color name="qui_icon_green">#89d043</color>
+    <color name="qui_icon_red">#fc7b53</color>
+    <color name="qui_icon_grey">#c7c7c7</color>
+
+    <!--透明色-->
+    <color name="qui_opacity_dark01">#19000000</color>
+    <color name="qui_opacity_dark02">#33000000</color>
+    <color name="qui_opacity_dark03">#7f000000</color>
+    <color name="qui_opacity_dark04">#99000000</color>
+    <color name="qui_opacity_dark05">#cc000000</color>
+    <color name="qui_opacity_light01">#19ffffff</color>
+    <color name="qui_opacity_light02">#33ffffff</color>
+    <color name="qui_opacity_light03">#7fffffff</color>
+    <color name="qui_opacity_light04">#99ffffff</color>
+    <color name="qui_opacity_light05">#ccffffff</color>
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="context_menu_divider">#dcdde3</color>
+
+
+    <!--使用[目的]来描述的id-->
+    <color name="actionbar_home_text_color">@color/qui_text_dark</color>
+    <color name="actionbar_title">@color/white</color>
+    <color name="text_description">@color/qui_text_light</color>
+
+    <color name="black">#000000</color>
+    <color name="blue">#0894ec</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="mini_translucent_bg">#e0000000</color>
+    <color name="rippelColor">#FFFFFF</color>
+
+    <color name="setting_item_background">@color/qui_background_white</color>
+    <color name="setting_item_background_press">@color/qui_background_light</color>
+    <color name="setting_item_text">@color/qui_text_dark</color>
+    <color name="setting_item_sub_text">@color/qui_text_light</color>
+    <color name="setting_item_right_text">@color/qui_text_light</color>
+    <color name="setting_item_title_text">@color/qui_text_normal</color>
+    <color name="setting_item_annotation_text">@color/qui_text_light</color>
+    <color name="setting_item_divider">#eff0f4</color>
+    <color name="setting_item_top_line">#dcdde3</color>
+    <color name="setting_item_bottom_line">#dcdde3</color>
+
+    <color name="qui_title_text_color">@color/qui_text_dark</color>
+    <color name="qui_content_text_color">@color/qui_text_light</color>
+    <color name="qui_button_positive_background">#3089dc</color>
+    <color name="qui_button_negative_background">#dcdde3</color>
+    <color name="qui_divider_line_color">#dcdde3</color>
+    <color name="setting_item_divider_line">#dcdde3</color>
+</resources>

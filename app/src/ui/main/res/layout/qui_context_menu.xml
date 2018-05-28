@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/qui_text_light"
+        android:paddingTop="@dimen/qw_context_menu_item_left_padding"
+        android:paddingLeft="@dimen/qw_context_menu_item_left_padding"
+        android:visibility="gone"
+        />
+
+    <com.magic.snail.widget.SnailMaxHeightScrollView
+        android:id="@+id/root_scroll"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/root"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </com.magic.snail.widget.SnailMaxHeightScrollView>
+
+</LinearLayout>

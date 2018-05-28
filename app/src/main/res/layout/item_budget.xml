@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_project_item"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <TextView
+        android:id="@+id/leafNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/qui_title_text_size"
+        android:textColor="@color/qui_text_dark"
+        android:text="瓷砖"/>
+
+    <TextView
+        android:id="@+id/leafTagTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="180dp"
+        android:layout_marginLeft="10dp"
+        android:paddingBottom="3dp"
+        app:layout_constraintLeft_toRightOf="@id/leafNameTextView"
+        app:layout_constraintBottom_toBottomOf="@id/leafNameTextView"
+        android:textSize="11sp"
+        android:textColor="@color/qui_text_light"
+        android:text="[标签]"/>
+
+    <TextView
+        android:id="@+id/costTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textSize="@dimen/qui_content_text_size"
+        android:textColor="@color/qui_text_light"
+        android:text="已花费:  305"
+        app:layout_constraintLeft_toRightOf="@id/leafNameTextView"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/leafNameTextView"/>
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:visibility="gone"
+        android:textSize="@dimen/qui_content_text_size"
+        android:textColor="@color/qui_text_light"
+        android:text="选用亚细亚，每平200"
+        app:layout_constraintTop_toBottomOf="@id/leafNameTextView"/>
+
+</android.support.constraint.ConstraintLayout>
